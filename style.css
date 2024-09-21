@@ -1,0 +1,59 @@
+@font-face {
+  font-family: FiraSans-Regular;
+  src: url(./fonts/FiraSans-Regular.ttf);
+}
+
+@font-face {
+  font-family: FiraSans-Bold;
+  src: url(./fonts/FiraSans-Bold.ttf);
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: FiraSans-Regular;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* ESTILOS GERAIS FINALIZADOS */
+
+/* HEADER COMEÇANDO */
+
+header {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px;
+  align-items: center;
+}
+
+header h1 {
+  font-size: 48px;
+}
+
+ul,
+li {
+  display: inline-block;
+  list-style-type: none;
+}
+
+li {
+  margin-right: 10px;
+  padding: 12px 25px;
+  background-color: #4d7c5a;
+  border-radius: 4px;
+  border-style: solid;
+  border-color: #6cad7e;
+  color: #bfffd1;
+}
+
+li a {
+  color: #bfffd1;
+}
+
+/* HEADER FINALIZADO!! */
+
+/* SECTION 1 COMEÇANDO!! */
